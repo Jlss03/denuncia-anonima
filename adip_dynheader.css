@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+@media ( max-width : 876px) {
+	.LogoCDMX {
+		display: none;
+	}
+	.LogoCDMXMobile {
+		display: inline-block !important;
+	}
+}
+
+@media ( max-width : 790px ) {
+	 .ui-carousel-container {
+		 display: none !important;
+	 }
+}
+
+@media ( max-width : 747px) {
+	#adip-dynheader-nav .nav.navbar-nav {
+		display: none !important;
+	}
+}
+
+@media ( max-width : 451px) {
+	#adip-dynheader-nav .container-header {
+		min-height: 50px !important;
+		max-height: 50px !important;
+	}
+}
+
+@media (max-width: 341px) {
+	.LogoCDMXMobile {
+		width: 42px !important;
+	}
+	.LogoDependencia {
+		width: 120px !important;
+		height: 23px !important;
+	}
+	.navbar-brand {
+   		min-height: 50px !important;
+   		max-height: 50px !important;
+	}
+}
+
+
+@media (max-width: 331px) {
+	.navbar-brand {
+   		min-height: 50px !important;
+   		max-height: 50px !important;
+	}
+}
+
+@media ( max-width : 300px) {
+	.navbar-brand {
+		padding: 10px 0px !important;
+	}
+	.LogoDependencia {
+		width: 95px !important;
+		height: 25px !important;
+	}
+	.PipeSeparador {
+		width: 10px !important;
+	}
+}
+
+/* MEDIA PARA CUANDO LA DIMENSIÓN EN DONDE SE EMBEBE ES DE 320PX */
+@media ( max-width : 223.3px) {
+	.LogoDependencia {
+		width: 95px !important;
+		height: 25px !important;
+	}
+	.PipeSeparador {
+		width: 10px !important;
+	}
+}
+
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #586667;
+	background-color: #fff;
+}
+
+img {
+	vertical-align: middle;
+}
+
+#adip-dynheader-nav {
+	border-radius: unset !important;
+	border: 0 !important;
+	max-height: 70px !important;
+	width: 100%;
+	position: relative;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+#adip-dynheader-nav .container-header {
+	max-width: 1425px;
+	min-height: 70px;
+	max-height: 70px;
+	padding: 0;
+	width: 100%;
+}
+
+#adip-dynheader-nav .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: .875rem;
+    line-height: inherit;
+    white-space: nowrap;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 0;
+}
+
+#adip-dynheader-nav .navbar-collapse {
+	display: flex;
+	min-height: 70px;
+	max-height: 70px;
+	background: #fff;
+}
+
+#adip-dynheader-nav .nav.navbar-nav {
+	display: flex;
+	padding-left: 0;
+	list-style: none;
+	flex-direction: row;
+	margin: auto;
+}
+
+#adip-dynheader-nav .nav.navbar-nav li>a {
+	color: #104C42;
+	text-decoration: underline;
+	font-weight: 700;
+	padding: 0 30px;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+#adip-dynheader-nav .nav.navbar-nav li>a:hover {
+	color: #104C42;
+	background-color: unset;
+}
+
+.navbar-nav {
+	margin: 11.25px -15px
+}
+
+.navbar-brand {
+	float: left;
+	padding: 11px 0px;
+	font-size: 20px;
+	line-height: 25px;
+	height: 70px;
+}
+
+#adip-dynheader-nav .navbar-brand .LogoCDMXMobile {
+	display: none;
+}
+
+#adip-dynheader-nav .navbar-brand>.LogoCDMX {
+	width: 360px;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+	text-decoration: none;
+}
+
+.navbar-toggle:focus {
+	outline: 0;
+}
+
+/* SLIDER */
+#navHeader div[class="ui-carousel ui-widget ui-carousel-horizontal"] {
+	width: 100%;
+	padding: 10px 0px;
+}
+
+#navHeader .ui-carousel-content {
+	margin-top: -8px;
+	overflow: hidden;
+}
+
+body .ui-carousel .ui-carousel-content .ui-carousel-prev:hover, body .ui-carousel .ui-carousel-content .ui-carousel-next:hover {
+	background: none;
+}
+
+.product-item .product-item-content {
+	border-radius: 3px;
+	text-align: center;
+	padding: 17px 0;
+}
+
+.product-item .product-image {
+	width: 50%;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+}
+
+.link-header {
+	color: #104C42;
+	text-decoration: underline;
+	font-weight: 700;
+	padding: 0 5px;
+}
+
+.oculta-panel {
+	display: none !important;
+}

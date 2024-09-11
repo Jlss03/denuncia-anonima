@@ -1,0 +1,332 @@
+/*
+ * JBoss, Home of Professional Open Source
+ * Copyright 2013, Red Hat, Inc. and/or its affiliates, and individual
+ * contributors by the @authors tag. See the copyright.txt in the
+ * distribution for a full listing of individual contributors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/* Core styles for the page */
+
+/* HOJA DE ESTILOS PARA LOS COMPONENTES MOTOR */
+
+.titulo-componente {
+	font-style: normal !important;
+	font-weight: 700 !important;
+	font-size: 33px !important;
+	line-height: 40px !important;
+	text-align: center !important;
+	letter-spacing: -0.5px !important;
+	color: #175E50 !important;
+}
+
+.lbl-subseccion {
+	font-style: normal !important;
+	font-weight: 700 !important;
+	font-size: 20px !important;
+	line-height: 25px !important;
+	color: #BC955C !important;
+}
+
+.lbl-componente {
+	font-style: normal !important;
+	font-weight: 400 !important;
+	font-size: 1rem !important;
+	line-height: 24px !important;
+	color: #646D6C !important;
+}
+
+.componente-campo-texto {
+	background: #FFFFFF !important;
+    border: 1px solid #CED4DA !important;
+    border-radius: 4px !important;
+    height: 38px;
+}
+
+.componente-text-area {
+	background: #FFFFFF !important;
+    border: 1px solid #CED4DA !important;
+    border-radius: 4px !important;    
+}
+
+.componente-campo-numero {
+	background: #FFFFFF !important;
+/*     border: 1px solid #CED4DA !important; */
+    border-radius: 4px !important;
+    height: 38px;
+}
+
+.componente-campo-numero .ui-inputfield.ui-state-hover {
+	border: 1px solid #CED4DA !important;
+}
+
+.componente-campo-numero .ui-state-default, .ui-widget-content .ui-state-default,
+	.ui-widget-header .ui-state-default {
+	background: none;
+}
+
+.lbl-titulo-seccion {
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px !important;
+    line-height: 40px !important;
+    color: #175E50!important;
+}
+
+.lbl-seccion {
+	font-style: normal !important;
+	font-weight: 700 !important;
+	font-size: 15px !important;
+	line-height: 18px !important;
+	color: #B08F5C !important;
+	vertical-align: -webkit-baseline-middle;
+}
+
+.lbl-seccion-gris {
+	font-style: normal !important;
+	font-size: 15px !important;
+	line-height: 18px !important;
+	color: #646D6C !important;
+	vertical-align: -webkit-baseline-middle;
+}
+
+.recuadro-secciones {
+	width: 100% !important;
+	background: #EEEEEE !important;
+	box-shadow: 0px 16px 55px rgba(57, 57, 57, 0.04) !important;
+	border-radius: 6px !important;
+}
+
+.recuadro-comentarios {
+	width: 100% !important; 
+	border: 2px solid #0F4C42 !important; 
+	border-radius: 6px !important; 
+	box-shadow: 0px 16px 55px rgb(57 57 57 / 4%) !important;
+}
+
+.lbl-titulo-comentarios {
+	font-size: 16px !important; 
+	font-style: normal !important; 
+	line-height: 20px !important; 
+	font-weight: bold !important;
+}
+
+.lbl-comentarios {
+	font-size: 12px !important; 
+	font-style: normal !important; 
+	line-height: 18px !important; 
+	font-weight: 400 !important;
+}
+
+/*
+* A continuación, se sobrescriben algunos estilos de Primefaces
+*/
+
+/* Se modifican margenes para etiquetas del componente p:selectManyCheckbox por default trae margin: 0 16px 0 8px;*/
+.checkbox-interprete.ui-selectmanycheckbox label {
+    margin: 10px 10px 10px 15px !important;
+}
+
+/* Se modifican estilo de etiquetas para el componente p:selectManyCheckbox*/
+.lbl-checkbox-interprete {
+	font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 25px !important;
+    color: #6F7271 !important;
+}
+
+/**Estilos para los p:selectBooleanCheckbox del detalle de componentes**/
+
+.checkbox-interprete .ui-chkbox-box {
+	border: 1px solid #A0AEC0 !important;
+	border-width: 2px !important;
+	background: #ffffff !important;
+	width: 1.2rem !important;
+	height: 1.2rem !important;
+	text-align: center !important;
+	position: relative !important;
+	border-radius: 3px !important;
+	transition: background-color 0.2s, color 0.2s, border-color 0.2s,
+		box-shadow 0.2s !important;
+}
+
+.checkbox-interprete .ui-chkbox-box.ui-state-hover {
+	border-color: #235B4E !important;
+	background: transparent !important;
+}
+
+.checkbox-interprete .ui-chkbox-box.ui-state-focus {
+	box-shadow: 0 0 0 0.2em #235B4E !important;
+	outline: 0 none !important;
+}
+
+.checkbox-interprete .ui-chkbox-box.ui-state-active {
+	border-color: #235B4E !important;
+	background: #235B4E !important;
+	color: #ffffff !important;
+}
+
+.checkbox-interprete.ui-selectmanymenu .ui-selectlistbox-listcontainer .ui-selectlistbox-list .ui-selectlistbox-item{
+	padding: 0.5rem 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #6F7271 !important;
+}
+
+.checkbox-interprete .ui-chkbox-label > p > a {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 24px;
+	color: #BC955C;
+}
+
+.checkbox-interprete .ui-chkbox-label{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 24px;
+	color: #6F7271;
+	word-break: break-word !important;
+	width: 100%;
+}
+
+/*Estilos que se agregan a los botones que tiene el 
+componente checkbox de grupo para que parezcan links*/
+.btn-checkbox-group-interprete{
+	background-color: inherit !important; 
+	width: auto !important;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1rem !important;
+	line-height: 18px;
+	text-align: left !important;
+	letter-spacing: -0.460643px;
+	color: #235B4E !important;
+}
+
+.btn-checkbox-group-interprete .ui-button-text{
+	text-align: left !important;
+}
+
+.btn-checkbox-group-interprete.ui-button.ui-state-focus {
+	box-shadow: none;
+	text-decoration: underline !important;
+}
+
+/*Estilo para los selecOneMenu del interprete*/
+.selectOneMenu-interprete.ui-selectonemenu .ui-selectonemenu-label {
+	background: #FFFFFF;
+    color: #646D6C !important;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    line-height: 24px !important;
+    height: 38px !important;
+    border: 1px solid #CED4DA;
+	border-radius: 4px;
+    font-family: 'Inter' !important;
+    font-weight: bold;
+}
+
+.selectOneMenu-interprete.ui-selectonemenu .ui-selectonemenu-trigger {
+	border-left: 1px solid #ced4da !important;
+	background: #FFFFFF;
+}
+
+/*Estilo para los fileupload o cargaDocumento del interprete*/
+.carga-documento-span.ui-fileupload .ui-button span{
+	margin: 0 0 0 25px;
+}
+
+.carga-documento-span .ui-button.ui-state-hover {
+	background: none;
+	border-color: #fff;
+}
+
+.carga-documento-span .ui-button.ui-state-focus {
+	box-shadow: none;
+}
+
+/*Estilos que se utilizan en el componente de domicilio*/
+.red-border{
+	border-color: red !important;	
+}
+
+.black-border{
+	border-color: #CED4DA !important;	
+}
+
+/*Estilo para los datePicker del interprete*/
+.datepicker-interprete.ui-calendar input{
+	background: #FFFFFF;
+	border: 1px solid #CED4DA;
+	border-radius: 4px;
+	height: 38px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 24px;
+	color: #646D6C;
+	background-image: url(/resources/img/ic_calendar.svg);
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+}
+
+/*Estilo para el * de los requeridos*/
+.ui-outputlabel .ui-outputlabel-rfi {
+    color: #3290ED;
+}
+
+/*Estilos para el componente radio botón*/
+.radioboton-label-interprete{
+	cursor: pointer; 
+	display: inline-block;
+	margin: 0 16px 0 8px;
+	vertical-align: middle;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	letter-spacing: -0.5px;
+	color: #6F7271;
+}
+
+.radioboton-interprete.ui-radiobutton .ui-radiobutton-box.ui-state-active .ui-icon-bullet {
+    background: #235B4E;
+}
+
+.radioboton-interprete.ui-radiobutton .ui-radiobutton-box.ui-state-active {
+    border-color: #235B4E !important;
+    background: none;
+    color: #ffffff;
+}
+.radioboton-interprete.ui-radiobutton .ui-radiobutton-box.ui-state-active.ui-state-hover {
+    background: none;
+    box-shadow: 0 0 0 0.2em #235B4E !important;
+}
+.radioboton-interprete.ui-radiobutton .ui-radiobutton-box.ui-state-focus {
+    box-shadow: 0 0 0 0.2em #235B4E !important;
+}
+.radioboton-interprete.ui-radiobutton .ui-radiobutton-box.ui-state-hover {
+    border-color: #235B4E !important;
+}
+.radioboton-interprete.ui-radiobutton .ui-radiobutton-box {
+    border: 1px solid #D6D9D9;
+}
+
+/* MEDIA QUERY PARA AJUSTAR LABEL EN UPLOADFILE */
+@media screen and (max-width: 40em){
+	.carga-documento-span.ui-fileupload .ui-button span {
+		margin: -12px 0px 0px 4px !important;
+	}	
+}
